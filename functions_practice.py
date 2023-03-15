@@ -1,12 +1,14 @@
+#hello function
 def hello():
     print("Hello, user!")
 hello()
 
+#pack function
 def pack(item1, item2, item3):
     return[item1, item2, item3]
-items = ("boat", "car", "plane")
-print(items)
+print(pack("boat","car","plane"))
 
+#eat_lunch function
 lunch_items = ["sub", "cheeseburger", "tacos"]
 def eat_lunch(lunch_items):
     if not len(lunch_items):
