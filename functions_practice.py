@@ -1,7 +1,7 @@
 #hello function
 def hello():
     print("Hello, user!")
-    
+
 hello()
 
 #pack function
@@ -11,7 +11,6 @@ def pack(item1, item2, item3):
 print(pack("boat", "car", "plane"))
 
 #eat_lunch function
-
 def eat_lunch(lunch_items):
     if not len(lunch_items):
         print("My Lunch Box is Empty!")
