@@ -1,15 +1,17 @@
 #hello function
 def hello():
     print("Hello, user!")
+    
 hello()
 
 #pack function
 def pack(item1, item2, item3):
     return[item1, item2, item3]
-print(pack("boat","car","plane"))
+
+print(pack("boat", "car", "plane"))
 
 #eat_lunch function
-lunch_items = ["sub", "cheeseburger", "tacos"]
+
 def eat_lunch(lunch_items):
     if not len(lunch_items):
         print("My Lunch Box is Empty!")
@@ -19,5 +21,7 @@ def eat_lunch(lunch_items):
             print("Next I eat " + i)
     else:
         print("My lunchbox is Empty!")
-eat_lunch(lunch_items) #prints list of any length
+
+eat_lunch("sub")        
+eat_lunch(["sub", "cheeseburger", "tacos"]) #prints list 
 eat_lunch([]) #if list is empty
