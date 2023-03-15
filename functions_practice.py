@@ -18,9 +18,7 @@ def eat_lunch(lunch_items):
         print("First I eat " + lunch_items[0])
         for i in lunch_items[1:]:
             print("Next I eat " + i)
-    else:
-        print("My lunchbox is Empty!")
-
+   
 eat_lunch("sub")        
 eat_lunch(["sub", "cheeseburger", "tacos"]) #prints list 
 eat_lunch([]) #if list is empty
