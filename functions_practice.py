@@ -1,6 +1,6 @@
-def hello(name):
-    print("Hello"+ ' ' + name)
-hello("user")
+def hello():
+    print("Hello, user!")
+hello()
 
 def pack(item1, item2, item3):
     return[item1, item2, item3]
